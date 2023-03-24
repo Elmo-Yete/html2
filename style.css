@@ -1,5 +1,5 @@
 html,
-body{
+body {
     background: skyblue;
     box-sizing: border-box;
     height: 100%;
@@ -9,8 +9,8 @@ body{
     width: 100%;
 }
 
-.container{
-    background: salmon;
+.container {
+    background: pink;
     display: inline-block;
     height: 500px;
     position: relative;
@@ -40,11 +40,11 @@ body{
 }
 .container.square3 {
     background: green;
-    height: 50px;
+    height: 200px;
     display: block;
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 50px;
+    width: 200px;
     z-index:2;
 }
