@@ -1,0 +1,40 @@
+html,
+body{
+    background: skyblue;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    background: salmon;
+    display: inline-block;
+    height: 500px;
+    position: relative;
+    width: 500px;
+}
+
+.container.square {
+    background-color: blue;
+    transform: translate(-50%,-50%);
+    display: block;
+    position: absolute;
+    height: 50px;
+    top: 50%;
+    left:50%;
+    width: 50px;
+}
+
+.container.square2 {
+    background: red;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    z-index:1;
+}
