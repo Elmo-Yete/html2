@@ -1,0 +1,39 @@
+html,
+body {
+    background: skyblue;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.cambiacolor {
+    color: blue;
+
+}
+
+.marcadeagua{
+    color: red;
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+@media (max-width:1000px) {
+    .cambiacolor {
+        color: gold;
+    }
+}   
+
+@media print {
+    .cambiacolor {
+        color: green;
+    }
+
+    .marcadeagua{
+        display: block;
+    }
+}
